@@ -32,7 +32,27 @@ export const Navigation: React.FC = () => {
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							회사소개
+						</Link>
+						<Link
+							href="/"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							제품소개
+						</Link>
+						<Link
+							href="https://openpublics.com/wood/"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+							target="_blank"
+						>
+							카달로그
+						</Link>
+						<Link
+							href="https://infotech-image-gallery.vercel.app/"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+							target="_blank"
+						>
+							갤러리
 						</Link>
 						<Link
 							href="/contact"
