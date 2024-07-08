@@ -35,24 +35,24 @@ export const Navigation: React.FC = () => {
 							회사소개
 						</Link>
 						<Link
-							href="/"
+							href="https://infotech04.notion.site/2114085b1fa1416d83fc83863d8fea60?v=24bf3d44fffa47bb87408adbdf9404ee"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							제품소개
 						</Link>
 						<Link
-							href="https://openpublics.com/wood/"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-							target="_blank"
-						>
-							카달로그
-						</Link>
-						<Link
-							href="https://infotech-image-gallery.vercel.app/"
+							href="https://gallery.infotech04.com/"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 							target="_blank"
 						>
 							갤러리
+						</Link>
+						<Link
+							href="/infotech.pdf"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+							target="_blank"
+						>
+							카달로그
 						</Link>
 						<Link
 							href="/contact"
