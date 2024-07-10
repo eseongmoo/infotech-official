@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "infotech.com",
-    template: "%s | infotech.com",
+    default: "infotech04.com",
+    template: "%s | infotech04.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "",
   openGraph: {
-    title: "infotech.com",
+    title: "infotech04.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://infotech.com",
-    siteName: "infotech.com",
+      "",
+    url: "https://infotech04.com",
+    siteName: "infotech04.com",
     images: [
       {
-        url: "https://infotech.com/og.png",
+        url: "https://infotech04.com/og.png",
         width: 1920,
         height: 1080,
       },

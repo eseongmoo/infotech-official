@@ -29,7 +29,7 @@ export const Navigation: React.FC = () => {
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
 						<Link
-							href="/projects"
+							href="/infotech/about"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							회사소개
@@ -37,6 +37,7 @@ export const Navigation: React.FC = () => {
 						<Link
 							href="https://infotech04.notion.site/2114085b1fa1416d83fc83863d8fea60?v=24bf3d44fffa47bb87408adbdf9404ee"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
+							target="_blank"
 						>
 							제품소개
 						</Link>
@@ -58,7 +59,7 @@ export const Navigation: React.FC = () => {
 							href="/contact"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Contact
+							문의
 						</Link>
 					</div>
 
@@ -67,6 +68,7 @@ export const Navigation: React.FC = () => {
 						className="duration-200 text-zinc-300 hover:text-zinc-100"
 					>
 						<ArrowLeft className="w-6 h-6 " />
+
 					</Link>
 				</div>
 			</div>
