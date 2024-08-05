@@ -35,13 +35,6 @@ export const Navigation: React.FC = () => {
 							회사소개
 						</Link>
 						<Link
-							href="https://infotech04.notion.site/2114085b1fa1416d83fc83863d8fea60?v=24bf3d44fffa47bb87408adbdf9404ee"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-							target="_blank"
-						>
-							제품소개
-						</Link>
-						<Link
 							href="https://gallery.infotech04.com/"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 							target="_blank"
