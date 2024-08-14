@@ -7,15 +7,17 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Phone size={20} />,
-		href: "tel:010-1234-1234",
+		href: "tel:070-4756-8378",
 		label: "연락처",
-		handle: "010-1234-1234",
+		handle1: "T. 070-4756-8378",
+		handle2: "F. 070-7614-3083",
+		handle3: "M. 010-9165-6185",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:admin@infotech04.com",
+		href: "mailto:woodplan@hanmail.net",
 		label: "이메일",
-		handle: "admin@infotech04.com",
+		handle: "woodplan@hanmail.net",
 	},
 	{
 		icon: <Map size={20} />,
@@ -49,10 +51,13 @@ export default function Example() {
 									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
 										{s.label}
 									</span>
-									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display text-center">
-										{s.handle}
+									<span className="mt-4 lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display text-center">
+										{socials.indexOf(s) === 0 ? (
+											<p className="text-left">{s.handle1}<br/>{s.handle2}<br/>{s.handle3}</p>
+											) : (
+											s.handle
+										)}
 									</span>
-
 								</div>
 							</Link>
 						</Card>
